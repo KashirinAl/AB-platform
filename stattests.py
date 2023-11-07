@@ -2,7 +2,8 @@ import pandas as pd
 import numpy as np
 import abc
 
-from scipy.stats import ttest_ind_from_stats, ttest_ind
+from scipy.stats import ttest_ind_from_stats, ttest_ind, mannwhitneyu
+from statsmodels.stats.proportion import proportions_ztes
 
 import config as cfg
 
